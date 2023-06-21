@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_splash.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="302dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="16dp"
+        android:text="Play With Math"
+        android:textColor="#00BCD4"
+        android:textSize="52sp" />
+
+</RelativeLayout>
